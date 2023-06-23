@@ -4,6 +4,8 @@ An easy way to use Discord webhook with Deno.
 
 ## Import
 
+> Note: This module requires `--allow-net` and `--allow-read` flags to run.
+
 ```ts
 // import via Deno
 import * as discordhook from "https://deno.land/x/discord_hook@$VERSION/mod.ts";
