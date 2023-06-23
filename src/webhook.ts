@@ -297,11 +297,4 @@ export interface APIExecuteWebhook {
   tts?: boolean;
   flags?: number;
   embeds?: APIEmbed[];
-  attachments?: APIPartialAttachment[];
-}
-
-export interface APIPartialAttachment {
-  id: string;
-  filename?: string;
-  description?: string;
 }
